@@ -127,7 +127,7 @@ colors: [
     brand: "Owala",
     capacity: "12 oz",
 colors: [
-  { name: "Amarillo", code: "rgb(169, 126, 65)", image: "img/12amarillo.png" }
+  { name: "Amarillo", code: "rgb(190, 151, 74)", image: "img/12amarillo.png" }
 ],
     price: 280,
     image: "img/12amarillo.png",
