@@ -120,6 +120,19 @@ colors: [
     image: "img/diseño32.png",
     whatsapp: "522381445102"
   },
+   {
+    id: 11,
+    name: "Owala Kids' Tumbler",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "12 oz",
+colors: [
+  { name: "Amarillo", code: "rgb(169, 126, 65)", image: "img/12amarillo.png" }
+],
+    price: 280,
+    image: "img/12amarillo.png",
+    whatsapp: "522381445102"
+  },
   {
     id: 20,
     name: "Llavero Termo Stanley",
