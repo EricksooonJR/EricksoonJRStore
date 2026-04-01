@@ -134,6 +134,19 @@ colors: [
     whatsapp: "522381445102"
   },
   {
+    id: 12,
+    name: "Owala FreeSip",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "27 oz",
+colors: [
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png" }
+],
+    price: 500,
+    image: "img/owala27.png",
+    whatsapp: "522381445102"
+  },
+  {
     id: 20,
     name: "Llavero Termo Stanley",
     category: "Llaveros",
