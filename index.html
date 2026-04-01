@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ERICKSOONJRSTORE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="productModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modalBody"></div>
+      </div>
+    </div>
+    <header class="topbar">
+      <div class="logo"><img src="img/logo.png" /></div>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Buscar termos, llaveros, marcas..."
+        />
+        <button id="searchBtn">Buscar</button>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <button class="filter-btn active" data-category="Todos">Todos</button>
+      <button class="filter-btn" data-category="Termos">Termos</button>
+      <button class="filter-btn" data-category="Llaveros">Llaveros</button>
+      <button class="filter-btn" data-category="Accesorios">Accesorios</button>
+    </nav>
+
+    <main class="main-container">
+      <aside class="sidebar">
+        <h3>Filtrar por marca</h3>
+        <div id="brandFilters" class="brand-filters"></div>
+      </aside>
+
+      <section class="content">
+        <div class="hero">
+          <div class="hero-title-wrap">
+            <div class="hero-title-row">
+              <img src="img/logo.png" alt="logo" class="hero-logo" />
+              <h1 class="hero-title-tech">Bienvenido a ERICKSOONJRSTORE</h1>
+            </div>
+            <div class="hero-circuit-line"></div>
+          </div>
+          <p>
+            Encuentra termos, llaveros y accesorios organizados por categoría y
+            marca.
+          </p>
+        </div>
+
+        <div class="products-header">
+          <h2>Productos disponibles</h2>
+          <span id="resultsCount"></span>
+        </div>
+
+        <div id="productsContainer" class="products-grid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 ERICKSOONJRSTORE - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
