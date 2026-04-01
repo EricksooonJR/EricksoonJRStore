@@ -452,3 +452,4 @@ if (e.target.classList.contains("modal-color-circle")) {
 });
 renderBrands();
 renderProducts();
+
