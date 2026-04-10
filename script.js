@@ -168,7 +168,7 @@ colors: [
     brand: "Llavero Nike",
     colors: [
   { name: "Azul Rey", code: "rgb(74, 143, 199)", image: "img/tenisazul.png" },
- // { name: "Negro", code: "rgb(0, 0, 0)", image: "img/tenisnegro.png" },
+ /* { name: "Negro", code: "rgb(0, 0, 0)", image: "img/tenisnegro.png" },*/
   { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/tenisblanco.png" },
   { name: "Rosa", code: "rgb(209, 119, 122)", image: "img/tenisrosa.png" },
   { name: "Verde", code: "rgb(84, 182, 203)", image: "img/tenisverde.png" }
