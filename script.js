@@ -67,7 +67,7 @@ colors: [
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 1 },
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 2 },
     { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }
 ],
     price: 500,
@@ -140,7 +140,7 @@ colors: [
     brand: "Owala",
     capacity: "27 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 1 }
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 2 }
 ],
     price: 500,
     image: "img/owala27.png",
@@ -167,11 +167,11 @@ colors: [
     category: "Llaveros",
     brand: "Llavero Nike",
     colors: [
-  { name: "Azul Rey", code: "rgb(74, 143, 199)", image: "img/tenisazul.png", stock: 1 },
+  { name: "Azul Rey", code: "rgb(74, 143, 199)", image: "img/tenisazul.png", stock: 2 },
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/tenisnegro.png", stock: 1 },
-  { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/tenisblanco.png", stock: 1 },
-  { name: "Rosa", code: "rgb(209, 119, 122)", image: "img/tenisrosa.png", stock: 1 },
-  { name: "Verde", code: "rgb(84, 182, 203)", image: "img/tenisverde.png", stock: 1 }
+  { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/tenisblanco.png", stock: 2 },
+  { name: "Rosa", code: "rgb(209, 119, 122)", image: "img/tenisrosa.png", stock: 2 },
+  { name: "Verde", code: "rgb(84, 182, 203)", image: "img/tenisverde.png", stock: 2 }
 
 ],
     price: 150,
@@ -184,7 +184,7 @@ colors: [
     category: "Llaveros",
     brand: "Llavero Mundial",
     colors: [
-  { name: "Multicolor", code: "rgb(255, 255, 255)", image: "img/mundial.png", stock: 1 }
+  { name: "Multicolor", code: "rgb(255, 255, 255)", image: "img/mundial.png", stock: 5 }
 ],
     price: 65,
     image: "img/mundial.png",
