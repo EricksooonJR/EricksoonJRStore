@@ -6,11 +6,11 @@ const products = [
     brand: "Stanley",
     capacity: "20 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png" },
-  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png" },
-  { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png" },
-  { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png" },
-  { name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png" }
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },
+  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },
+  { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png", stock: 1 },
+  { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },
+  { name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 }
 ],
     price: 550,
     image: "img/shaker3.png",
@@ -23,8 +23,8 @@ colors: [
     brand: "Stanley",
     capacity: "16 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png" },
-  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png" }
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 },
+  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }
 ],
     price: 350,
     image: "img/iceflownegro.png",
@@ -37,10 +37,10 @@ colors: [
     brand: "Alo",
     capacity: "40 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png" },
-  { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png" },
-  { name: "Rosa", code: "rgb(249, 63, 150)", image: "img/alorosa.png" },
-  { name: "Gris", code: "rgb(208, 212, 210)", image: "img/alogris.png" }
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },
+  { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },
+  { name: "Rosa", code: "rgb(249, 63, 150)", image: "img/alorosa.png", stock: 1 },
+  { name: "Gris", code: "rgb(208, 212, 210)", image: "img/alogris.png", stock: 1 }
 ],
     price: 350,
     image: "img/alonegro.png",
@@ -53,7 +53,7 @@ colors: [
     brand: "Owala",
     capacity: "32 oz",
 colors: [
-  { name: "Verde", code: "rgb(82, 193, 158)", image: "img/crverde.png" }
+  { name: "Verde", code: "rgb(82, 193, 158)", image: "img/crverde.png", stock: 1 }
 ],
     price: 550,
     image: "img/crverde.png",
@@ -67,8 +67,8 @@ colors: [
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png" },
-    { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png" }
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 1 },
+    { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }
 ],
     price: 500,
     image: "img/owala27.png",
@@ -81,7 +81,7 @@ colors: [
     brand: "Owala",
     capacity: "24 oz",
 colors: [
-  { name: "Tiburones", code: "rgb(160, 187, 205)", image: "img/owalatwisttibu.png" }
+  { name: "Tiburones", code: "rgb(160, 187, 205)", image: "img/owalatwisttibu.png", stock: 1 }
 ],
     price: 450,
     image: "img/owala27.png",
@@ -94,13 +94,13 @@ colors: [
     brand: "Owala",
     capacity: "32 oz",
 colors: [
-  { name: "Dona", code: "rgb(212, 128, 160)", image: "img/32dona.png" },
-  { name: "Flores Rojo", code: "rgb(145, 38, 62)", image: "img/32floresrojo.png" },
-  { name: "Flores Verde", code: "rgb(153, 200, 114)", image: "img/32floresverde.png" },
-  { name: "Stitch", code: "rgb(83, 103, 188)", image: "img/32stitch.png" },
-  { name: "Wicked", code: "rgb(32, 74, 46)", image: "img/32wicked.png" },  
-  { name: "Flores", code: "rgb(43, 44, 53)", image: "img/32floresnegro.png" },  
-  { name: "Cuadros verde", code: "rgb(66, 71, 62)", image: "img/32cuadrosverde.png" }
+  { name: "Dona", code: "rgb(212, 128, 160)", image: "img/32dona.png", stock: 1 },
+  { name: "Flores Rojo", code: "rgb(145, 38, 62)", image: "img/32floresrojo.png", stock: 1 },
+  { name: "Flores Verde", code: "rgb(153, 200, 114)", image: "img/32floresverde.png", stock: 1 },
+  { name: "Stitch", code: "rgb(83, 103, 188)", image: "img/32stitch.png", stock: 1 },
+  { name: "Wicked", code: "rgb(32, 74, 46)", image: "img/32wicked.png", stock: 1 },  
+  { name: "Flores", code: "rgb(43, 44, 53)", image: "img/32floresnegro.png", stock: 1 },  
+  { name: "Cuadros verde", code: "rgb(66, 71, 62)", image: "img/32cuadrosverde.png", stock: 1 }
 ],
     price: 500,
     image: "img/diseño32.png",
@@ -113,8 +113,8 @@ colors: [
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png" },
- { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png" }
+  { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },
+ { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 }
 ],
     price: 500,
     image: "img/diseño32.png",
@@ -127,7 +127,7 @@ colors: [
     brand: "Owala",
     capacity: "12 oz",
 colors: [
-  { name: "Amarillo", code: "rgb(190, 151, 74)", image: "img/12amarillo.png" }
+  { name: "Amarillo", code: "rgb(190, 151, 74)", image: "img/12amarillo.png", stock: 1 }
 ],
     price: 280,
     image: "img/12amarillo.png",
@@ -140,7 +140,7 @@ colors: [
     brand: "Owala",
     capacity: "27 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png" }
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 1 }
 ],
     price: 500,
     image: "img/owala27.png",
@@ -152,10 +152,10 @@ colors: [
     category: "Llaveros",
     brand: "Llavero Stanley",
     colors: [
-  { name: "Azul Rey", code: "rgb(42, 57, 211)", image: "img/llaverostanley.png" },
-  { name: "Azul", code: "rgb(75, 162, 254)", image: "img/llaverostanley.png" },
-  { name: "Blanco", code: "rgb(235, 242, 239)", image: "img/llaverostanley.png" },
-  { name: "Verde", code: "rgb(217, 245, 91)", image: "img/llaverostanley.png" },
+  { name: "Azul Rey", code: "rgb(42, 57, 211)", image: "img/llaverostanley.png", stock: 1 },
+  { name: "Azul", code: "rgb(75, 162, 254)", image: "img/llaverostanley.png", stock: 1 },
+  { name: "Blanco", code: "rgb(235, 242, 239)", image: "img/llaverostanley.png", stock: 1 },
+  { name: "Verde", code: "rgb(217, 245, 91)", image: "img/llaverostanley.png", stock: 1 },
 ],
     price: 50,
     image: "img/llaverostanley.png",
@@ -167,11 +167,11 @@ colors: [
     category: "Llaveros",
     brand: "Llavero Nike",
     colors: [
-  { name: "Azul Rey", code: "rgb(74, 143, 199)", image: "img/tenisazul.png" },
- /* { name: "Negro", code: "rgb(0, 0, 0)", image: "img/tenisnegro.png" },*/
-  { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/tenisblanco.png" },
-  { name: "Rosa", code: "rgb(209, 119, 122)", image: "img/tenisrosa.png" },
-  { name: "Verde", code: "rgb(84, 182, 203)", image: "img/tenisverde.png" }
+  { name: "Azul Rey", code: "rgb(74, 143, 199)", image: "img/tenisazul.png", stock: 1 },
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/tenisnegro.png", stock: 1 },
+  { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/tenisblanco.png", stock: 1 },
+  { name: "Rosa", code: "rgb(209, 119, 122)", image: "img/tenisrosa.png", stock: 1 },
+  { name: "Verde", code: "rgb(84, 182, 203)", image: "img/tenisverde.png", stock: 1 }
 
 ],
     price: 150,
@@ -184,7 +184,7 @@ colors: [
     category: "Llaveros",
     brand: "Llavero Mundial",
     colors: [
-  { name: "Multicolor", code: "rgb(255, 255, 255)", image: "img/mundial.png" }
+  { name: "Multicolor", code: "rgb(255, 255, 255)", image: "img/mundial.png", stock: 1 }
 ],
     price: 65,
     image: "img/mundial.png",
@@ -196,6 +196,21 @@ colors: [
 let selectedCategory = "Todos";
 let selectedBrands = [];
 let selectedColorByProduct = {};
+
+function getSelectedColorName(product) {
+  return selectedColorByProduct[String(product.id)] ||
+    (product.colors && product.colors.length > 0 ? product.colors[0].name : "No especificado");
+}
+
+function getSelectedColorData(product) {
+  const selectedColor = getSelectedColorName(product);
+  return product.colors?.find(color => color.name === selectedColor) || null;
+}
+
+function getSelectedColorStock(product) {
+  const selectedColorData = getSelectedColorData(product);
+  return selectedColorData?.stock ?? 0;
+}
 
 const productsContainer = document.getElementById("productsContainer");
 const brandFilters = document.getElementById("brandFilters");
@@ -248,7 +263,7 @@ function renderProducts() {
   }
 
   productsContainer.innerHTML = filteredProducts.map(product => {
-    const selectedColor = selectedColorByProduct[String(product.id)] || (product.colors && product.colors.length > 0 ? product.colors[0].name : "No especificado");
+const selectedColor = getSelectedColorName(product);
     const message = encodeURIComponent(`Hola, me interesa este producto: ${product.name} - Color: ${selectedColor}`);
     const whatsappLink = `https://wa.me/${product.whatsapp}?text=${message}`;
 
@@ -261,7 +276,7 @@ function renderProducts() {
           <h3 class="product-title">${product.name}</h3>
           
           ${product.capacity ? `<p class="product-capacity">${product.capacity}</p>` : ""}
-          
+          <p class="product-stock">Disponibles: ${getSelectedColorStock(product)} pieza(s)</p>
           <span class="product-category">${product.category}</span>
 
           ${
@@ -316,10 +331,11 @@ document.addEventListener("click", function (e) {
     const newImage = e.target.getAttribute("data-image");
     const selectedColor = e.target.getAttribute("data-color");
     const productId = e.target.getAttribute("data-product");
-    const card = e.target.closest(".product-card");
-    const img = card.querySelector(".product-image");
-    const whatsappBtn = card.querySelector(".btn-whatsapp");
-    const product = products.find(item => String(item.id) === productId);
+   const card = e.target.closest(".product-card");
+const img = card.querySelector(".product-image");
+const whatsappBtn = card.querySelector(".btn-whatsapp");
+const stockText = card.querySelector(".product-stock");
+const product = products.find(item => String(item.id) === productId);
 
     selectedColorByProduct[String(productId)] = selectedColor;
 
@@ -332,6 +348,9 @@ document.addEventListener("click", function (e) {
       const message = encodeURIComponent(`Hola, me interesa este producto: ${product.name} - Color: ${currentColor}`);
       whatsappBtn.href = `https://wa.me/${product.whatsapp}?text=${message}`;
     }
+    if (stockText && product) {
+  stockText.textContent = `Disponibles: ${getSelectedColorStock(product)} pieza(s)`;
+}
   }
 });
 const modal = document.getElementById("productModal");
@@ -346,12 +365,8 @@ document.addEventListener("click", function (e) {
 
   if (!product) return;
 
-  const selectedColor =
-    selectedColorByProduct[String(product.id)] ||
-    (product.colors && product.colors.length > 0 ? product.colors[0].name : "No especificado");
-
-  const selectedColorData =
-    product.colors?.find(color => color.name === selectedColor) || null;
+  const selectedColor = getSelectedColorName(product);
+const selectedColorData = getSelectedColorData(product);
 
   const modalImage = selectedColorData?.image || product.image;
 
@@ -373,6 +388,7 @@ document.addEventListener("click", function (e) {
 
     <p><strong>Marca:</strong> ${product.brand}</p>
     ${product.capacity ? `<p><strong>Capacidad:</strong> ${product.capacity}</p>` : ""}
+    <p><strong>Disponibles:</strong> <span id="modalStockValue">${getSelectedColorStock(product)} pieza(s)</span></p>
     <p><strong>Precio:</strong> $${product.price} MXN</p>
 
     ${
@@ -424,8 +440,9 @@ if (e.target.classList.contains("modal-color-circle")) {
   selectedColorByProduct[String(productId)] = selectedColor;
 
   const modalImage = document.getElementById("modalProductImage");
-  const modalSelectedColor = document.getElementById("modalSelectedColor");
-  const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
+const modalSelectedColor = document.getElementById("modalSelectedColor");
+const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
+const modalStockValue = document.getElementById("modalStockValue");
 
   document.querySelectorAll(".modal-color-circle").forEach(circle => {
     circle.classList.remove("active");
@@ -446,10 +463,11 @@ if (e.target.classList.contains("modal-color-circle")) {
     );
     modalWhatsappBtn.href = `https://wa.me/${product.whatsapp}?text=${whatsappMessage}`;
   }
-
+if (modalStockValue) {
+  modalStockValue.textContent = `${getSelectedColorStock(product)} pieza(s)`;
+}
   renderProducts();
 }
 });
 renderBrands();
 renderProducts();
-
