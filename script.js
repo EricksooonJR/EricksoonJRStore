@@ -94,7 +94,7 @@ colors: [
     brand: "Owala",
     capacity: "32 oz",
 colors: [
-  { name: "Dona", code: "rgb(212, 128, 160)", image: "img/32dona.png", stock: 1 },
+  /*{ name: "Dona", code: "rgb(212, 128, 160)", image: "img/32dona.png", stock: 1 },*/
   { name: "Flores Rojo", code: "rgb(145, 38, 62)", image: "img/32floresrojo.png", stock: 1 },
   { name: "Flores Verde", code: "rgb(153, 200, 114)", image: "img/32floresverde.png", stock: 1 },
   { name: "Stitch", code: "rgb(83, 103, 188)", image: "img/32stitch.png", stock: 1 },
