@@ -6,7 +6,7 @@ const products = [
     brand: "Stanley",
     capacity: "20 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },
+/*  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },*/
   { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },
   { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png", stock: 1 },
   { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },
@@ -23,8 +23,8 @@ colors: [
     brand: "Stanley",
     capacity: "16 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 },
-  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 }
+ /* { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }*/
 ],
     price: 350,
     image: "img/iceflownegro.png",
@@ -142,7 +142,7 @@ colors: [
 colors: [
   { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 2 }
 ],
-    price: 500,
+    price: 400,
     image: "img/owala27.png",
     whatsapp: "522381445102"
   },
