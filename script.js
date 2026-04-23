@@ -38,7 +38,7 @@ colors: [
     capacity: "40 oz",
 colors: [
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },
-  { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },
+ /* { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },*/
   { name: "Rosa", code: "rgb(249, 63, 150)", image: "img/alorosa.png", stock: 1 },
   { name: "Gris", code: "rgb(208, 212, 210)", image: "img/alogris.png", stock: 1 }
 ],
@@ -95,7 +95,7 @@ colors: [
     capacity: "32 oz",
 colors: [
   /*{ name: "Dona", code: "rgb(212, 128, 160)", image: "img/32dona.png", stock: 1 },*/
-  { name: "Flores Rojo", code: "rgb(145, 38, 62)", image: "img/32floresrojo.png", stock: 1 },
+ /* { name: "Flores Rojo", code: "rgb(145, 38, 62)", image: "img/32floresrojo.png", stock: 1 },*/
   { name: "Flores Verde", code: "rgb(153, 200, 114)", image: "img/32floresverde.png", stock: 1 },
   { name: "Stitch", code: "rgb(83, 103, 188)", image: "img/32stitch.png", stock: 1 },
   { name: "Wicked", code: "rgb(32, 74, 46)", image: "img/32wicked.png", stock: 1 },  
