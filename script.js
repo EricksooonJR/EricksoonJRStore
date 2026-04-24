@@ -113,7 +113,7 @@ colors: [
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },
+ /* { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },*/
  { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 }
 ],
     price: 500,
