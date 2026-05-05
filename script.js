@@ -37,7 +37,7 @@ colors: [
     brand: "Alo",
     capacity: "40 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },
+ /* { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },*/
  /* { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },*/
   { name: "Rosa", code: "rgb(249, 63, 150)", image: "img/alorosa.png", stock: 1 },
   { name: "Gris", code: "rgb(208, 212, 210)", image: "img/alogris.png", stock: 1 }
