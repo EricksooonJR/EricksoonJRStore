@@ -10,7 +10,9 @@ colors: [
   { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },
   { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png", stock: 1 },
   { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },
-  { name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 }
+  /*{ name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 },*/
+  { name: "Verde", code: "rgb(116, 189, 144)", image: "img/shaker6.png", stock: 1 },
+    { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/shaker7.png", stock: 1 }
 ],
     price: 550,
     image: "img/shaker3.png",
@@ -23,30 +25,31 @@ colors: [
     brand: "Stanley",
     capacity: "16 oz",
 colors: [
-  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 }
- /* { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }*/
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 },
+ { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 },
+ { name: "Rosa", code: "rgb(208, 186, 231)", image: "img/iceflowrosa.png", stock: 1 }
 ],
     price: 350,
     image: "img/iceflownegro.png",
     whatsapp: "522381445102"
   },
-   {
+ /*  {
     id: 4,
     name: "Alo",
     category: "Termos",
     brand: "Alo",
     capacity: "40 oz",
 colors: [
- /* { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },*/
- /* { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },*/
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/alonegro.png", stock: 1 },
+ { name: "Turquesa", code: "rgb(122, 236, 242)", image: "img/aloturquesa.png", stock: 1 },
   { name: "Rosa", code: "rgb(249, 63, 150)", image: "img/alorosa.png", stock: 1 },
   { name: "Gris", code: "rgb(208, 212, 210)", image: "img/alogris.png", stock: 1 }
 ],
     price: 350,
     image: "img/alonegro.png",
     whatsapp: "522381445102"
-  },
-   {
+  },*/
+  /* {
     id: 5,
     name: "Cristiano Ronaldo",
     category: "Termos",
@@ -58,7 +61,7 @@ colors: [
     price: 550,
     image: "img/crverde.png",
     whatsapp: "522381445102"
-  },
+  },*/
    
   {
     id: 7,
@@ -67,8 +70,8 @@ colors: [
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 2 },
-    { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 2 }
+   /* { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }*/
 ],
     price: 500,
     image: "img/owala27.png",
@@ -105,7 +108,7 @@ colors: [
     price: 500,
     image: "img/diseño32.png",
     whatsapp: "522381445102"
-  },
+  }, 
         {
     id: 10,
     name: "Owala FreeSip Tumbler",
@@ -114,7 +117,11 @@ colors: [
     capacity: "40 oz",
 colors: [
  /* { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },*/
- { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 }
+ { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 },
+  { name: "Azul Cielo", code: "rgb(76, 121, 187)", image: "img/owalatumblerazulclaro.png", stock: 1 },
+    { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/owalatumblerblanco.png", stock: 1 },
+  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalatumblernegro.png", stock: 1 }
+
 ],
     price: 500,
     image: "img/diseño32.png",
@@ -127,7 +134,8 @@ colors: [
     brand: "Owala",
     capacity: "12 oz",
 colors: [
-  { name: "Amarillo", code: "rgb(190, 151, 74)", image: "img/12amarillo.png", stock: 1 }
+  { name: "Amarillo", code: "rgb(190, 151, 74)", image: "img/12amarillo.png", stock: 1 },
+  { name: "Turquesa", code: "rgb(172, 209, 251)", image: "img/12turquesa.png", stock: 2 }
 ],
     price: 280,
     image: "img/12amarillo.png",
@@ -138,14 +146,90 @@ colors: [
     name: "Owala FreeSip",
     category: "Termos",
     brand: "Owala",
-    capacity: "27 oz",
+    capacity: "24 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 2 }
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala27.png", stock: 1 },
+    { name: "Crema", code: "rgb(214, 208, 194)", image: "img/owala27crema.png", stock: 1 },
+    { name: "Azul", code: "rgb(116, 140, 197)", image: "img/owala27azul.png", stock: 1 }
 ],
     price: 400,
     image: "img/owala27.png",
     whatsapp: "522381445102"
   },
+    {
+    id: 13,
+    name: "Owala FreeSip BTS",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "32 oz",
+colors: [
+  { name: "Vino", code: "rgb(96, 72, 84)", image: "img/owalabtsvino.png", stock: 1 },
+  { name: "Rosa", code: "rgb(170, 157, 150)", image: "img/owalabtsrosa.png", stock: 1 },
+  { name: "Negro", code: "rgb(70, 70, 70)", image: "img/owalabtsnegro.png", stock: 2 },
+  { name: "Azul", code: "rgb(87, 136, 180)", image: "img/owalabtsazul.png", stock: 1 }
+],
+    price: 500,
+    image: "img/owalabtsvino.png",
+    whatsapp: "522381445102"
+  },
+      {
+    id: 14,
+    name: "Stanley Tumbler",
+    category: "Termos",
+    brand: "Stanley",
+    capacity: "40 oz",
+colors: [
+  { name: "Naranja", code: "rgb(212, 102, 72)", image: "img/stanleytumblernaranja.png", stock: 1 },
+  { name: "Rosa", code: "rgb(195, 162, 155)", image: "img/stanleytumblerrosa.png", stock: 1 },
+  { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/stanleytumblerblanco.png", stock: 1 }
+],
+    price: 500,
+    image: "img/stanleytumblernaranja.png",
+    whatsapp: "522381445102"
+  },
+  {
+    id: 15,
+    name: "Owala FreeSip Bicolor",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "32 oz",
+colors: [
+  { name: "Rosa", code: "rgb(191, 160, 182)", image: "img/owalabirosa.png", stock: 1 },
+    { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalabinegro.png", stock: 1 }
+],
+    price: 450,
+    image: "img/owalabirosa.png",
+    whatsapp: "522381445102"
+  },
+    {
+    id: 16,
+    name: "Owala FreeSip Sway",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "30 oz",
+colors: [
+  { name: "Verde", code: "rgb(109, 117, 101)", image: "img/owalaswayverde.png", stock: 1 },
+    { name: "Rosa", code: "rgb(181, 130, 155)", image: "img/owalaswayrosa.png", stock: 1 },
+        { name: "Crema", code: "rgb(183, 182, 181)", image: "img/owalaswaycrema.png", stock: 1 }
+
+],
+    price: 450,
+    image: "img/owalabirosa.png",
+    whatsapp: "522381445102"
+  },
+        {
+    id: 17,
+    name: "Owala FreeSip Diseño",
+    category: "Termos",
+    brand: "Owala",
+    capacity: "24 oz",
+colors: [
+  { name: "Corazones", code: "rgb(122, 42, 62)", image: "img/24corazones.png", stock: 1 }
+],
+    price: 450,
+    image: "img/diseño32.png",
+    whatsapp: "522381445102"
+  }, 
   {
     id: 20,
     name: "Llavero Termo Stanley",
