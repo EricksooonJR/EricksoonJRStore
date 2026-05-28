@@ -208,7 +208,7 @@ colors: [
     brand: "Owala",
     capacity: "30 oz",
 colors: [
-  { name: "Verde", code: "rgb(109, 117, 101)", image: "img/owalaswayverde.png", stock: 1 },
+/*  { name: "Verde", code: "rgb(109, 117, 101)", image: "img/owalaswayverde.png", stock: 1 },*/
     { name: "Rosa", code: "rgb(181, 130, 155)", image: "img/owalaswayrosa.png", stock: 1 },
         { name: "Crema", code: "rgb(183, 182, 181)", image: "img/owalaswaycrema.png", stock: 1 }
 
@@ -217,7 +217,7 @@ colors: [
     image: "img/owalabirosa.png",
     whatsapp: "522381445102"
   },
-        {
+/*        {
     id: 17,
     name: "Owala FreeSip Diseño",
     category: "Termos",
@@ -229,7 +229,7 @@ colors: [
     price: 450,
     image: "img/diseño32.png",
     whatsapp: "522381445102"
-  }, 
+  }, */
   {
     id: 20,
     name: "Llavero Termo Stanley",
