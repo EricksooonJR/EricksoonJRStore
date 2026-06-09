@@ -7,11 +7,11 @@ const products = [
     capacity: "20 oz",
 colors: [
 /*  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },*/
-  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },
+/*  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },*/
   { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png", stock: 1 },
   { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },
   /*{ name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 },*/
-  { name: "Verde", code: "rgb(116, 189, 144)", image: "img/shaker6.png", stock: 1 },
+/*  { name: "Verde", code: "rgb(116, 189, 144)", image: "img/shaker6.png", stock: 1 },*/
     { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/shaker7.png", stock: 1 }
 ],
     price: 550,
@@ -194,8 +194,8 @@ colors: [
     brand: "Owala",
     capacity: "32 oz",
 colors: [
-  { name: "Rosa", code: "rgb(191, 160, 182)", image: "img/owalabirosa.png", stock: 1 },
-    { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalabinegro.png", stock: 1 }
+  { name: "Rosa", code: "rgb(191, 160, 182)", image: "img/owalabirosa.png", stock: 1 }
+/*    { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalabinegro.png", stock: 1 }*/
 ],
     price: 450,
     image: "img/owalabirosa.png",
