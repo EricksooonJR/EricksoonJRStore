@@ -1,23 +1,23 @@
 const products = [
-  {
+/*  {
     id: 1,
     name: "Stanley Activate Shaker",
     category: "Termos",
     brand: "Stanley",
     capacity: "20 oz",
 colors: [
-/*  { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },*/
-/*  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },*/
+ { name: "Negro", code: "rgb(0, 0, 0)", image: "img/shaker3.png", stock: 1 },
+{ name: "Azul", code: "rgb(77, 167, 236)", image: "img/shaker1.png", stock: 1 },
   { name: "Café", code: "rgb(202, 189, 158)", image: "img/shaker2.png", stock: 1 },
-/*  { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },*/
-  /*{ name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 },*/
-/*  { name: "Verde", code: "rgb(116, 189, 144)", image: "img/shaker6.png", stock: 1 },*/
+ { name: "Gris", code: "rgb(127, 146, 164)", image: "img/shaker4.png", stock: 1 },
+{ name: "Morado", code: "rgb(123, 125, 170)", image: "img/shaker5.png", stock: 1 },
+{ name: "Verde", code: "rgb(116, 189, 144)", image: "img/shaker6.png", stock: 1 },
     { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/shaker7.png", stock: 1 }
 ],
     price: 550,
     image: "img/shaker3.png",
     whatsapp: "522381445102"
-  },
+  },*/
   {
     id: 2,
     name: "Stanley IceFlow",
@@ -26,8 +26,8 @@ colors: [
     capacity: "16 oz",
 colors: [
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 },
- { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 },
- { name: "Rosa", code: "rgb(208, 186, 231)", image: "img/iceflowrosa.png", stock: 1 }
+ { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }
+/* { name: "Rosa", code: "rgb(208, 186, 231)", image: "img/iceflowrosa.png", stock: 1 }*/
 ],
     price: 350,
     image: "img/iceflownegro.png",
@@ -119,7 +119,7 @@ colors: [
  /* { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },*/
  { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 },
   { name: "Azul Cielo", code: "rgb(76, 121, 187)", image: "img/owalatumblerazulclaro.png", stock: 1 },
-    { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/owalatumblerblanco.png", stock: 1 },
+/*    { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/owalatumblerblanco.png", stock: 1 },*/
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalatumblernegro.png", stock: 1 }
 
 ],
