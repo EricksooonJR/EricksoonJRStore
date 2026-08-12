@@ -18,7 +18,7 @@ colors: [
     image: "img/shaker3.png",
     whatsapp: "522381445102"
   },*/
-  {
+/*  {
     id: 2,
     name: "Stanley IceFlow",
     category: "Termos",
@@ -27,12 +27,12 @@ colors: [
 colors: [
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/iceflownegro.png", stock: 1 },
  { name: "Azul", code: "rgb(77, 167, 236)", image: "img/iceflowazul.png", stock: 1 }
-/* { name: "Rosa", code: "rgb(208, 186, 231)", image: "img/iceflowrosa.png", stock: 1 }*/
+{ name: "Rosa", code: "rgb(208, 186, 231)", image: "img/iceflowrosa.png", stock: 1 }
 ],
     price: 350,
     image: "img/iceflownegro.png",
     whatsapp: "522381445102"
-  },
+  },*/
  /*  {
     id: 4,
     name: "Alo",
@@ -63,20 +63,20 @@ colors: [
     whatsapp: "522381445102"
   },*/
    
-  {
+/*  {
     id: 7,
     name: "Owala FreeSip",
     category: "Termos",
     brand: "Owala",
     capacity: "40 oz",
 colors: [
-  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 2 }
-   /* { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }*/
+  { name: "Morado", code: "rgb(197, 80, 225)", image: "img/owala40morado.png", stock: 2 },
+    { name: "Turquesa", code: "rgb(117, 232, 235)", image: "img/owala40turquesa.png", stock: 1 }
 ],
     price: 500,
     image: "img/owala27.png",
     whatsapp: "522381445102"
-  },
+  },*/
     {
     id: 8,
     name: "Owala FreeSip Twist Diseño",
@@ -109,24 +109,24 @@ colors: [
     image: "img/diseño32.png",
     whatsapp: "522381445102"
   }, */
-        {
+   /*     {
     id: 10,
     name: "Owala FreeSip Tumbler",
     category: "Termos",
     brand: "Owala",
     capacity: "40 oz",
 colors: [
- /* { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },*/
+ { name: "Azul", code: "rgb(15, 32, 67)", image: "img/owalatumblerazul.png", stock: 1 },
  { name: "Rosa", code: "rgb(166, 112, 120)", image: "img/owalatumblerrosa.png", stock: 1 },
   { name: "Azul Cielo", code: "rgb(76, 121, 187)", image: "img/owalatumblerazulclaro.png", stock: 1 },
-/*    { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/owalatumblerblanco.png", stock: 1 },*/
+   { name: "Blanco", code: "rgb(255, 255, 255)", image: "img/owalatumblerblanco.png", stock: 1 },
   { name: "Negro", code: "rgb(0, 0, 0)", image: "img/owalatumblernegro.png", stock: 1 }
 
 ],
     price: 500,
     image: "img/diseño32.png",
     whatsapp: "522381445102"
-  },
+  },*/
 /*   {
     id: 11,
     name: "Owala Kids' Tumbler",
@@ -201,22 +201,22 @@ colors: [
     image: "img/owalabirosa.png",
     whatsapp: "522381445102"
   },*/
-    {
+/*    {
     id: 16,
     name: "Owala FreeSip Sway",
     category: "Termos",
     brand: "Owala",
     capacity: "30 oz",
 colors: [
-/*  { name: "Verde", code: "rgb(109, 117, 101)", image: "img/owalaswayverde.png", stock: 1 },*/
+  { name: "Verde", code: "rgb(109, 117, 101)", image: "img/owalaswayverde.png", stock: 1 },
     { name: "Rosa", code: "rgb(181, 130, 155)", image: "img/owalaswayrosa.png", stock: 1 }
- /*       { name: "Crema", code: "rgb(183, 182, 181)", image: "img/owalaswaycrema.png", stock: 1 }*/
+      { name: "Crema", code: "rgb(183, 182, 181)", image: "img/owalaswaycrema.png", stock: 1 }
 
 ],
     price: 450,
     image: "img/owalabirosa.png",
     whatsapp: "522381445102"
-  },
+  },*/
 /*        {
     id: 17,
     name: "Owala FreeSip Diseño",
